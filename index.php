@@ -76,25 +76,9 @@ include 'includes/login.php';
 		<div class="copyright-label">
 			<label>Copyright © 2018 All rights reserved | Created by: Mohamed Lahmar</label>
 		</div>
-		<div class="cms">
-			<label id="lblCms">CMS</label>
-		</div>
+		
 	</section>
 
-	<div id="myModal" class="modal">
-  		<div class="modal-content">
-    		<div class="modal-header">
-      			<span class="close">&times;</span>
-      			<h4>CMS</h4>
-    		</div>
-    		<div class="modal-body">
-	      		<form method="POST">
-		    		<input type="password" name="password" placeholder="Password">
-		    		<input type="submit" name="login" value="Login">
-	  			</form>
-			</div>
-  		</div>
-	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
