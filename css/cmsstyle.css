@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.projecten{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 10%;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('../img/w.jpg') no-repeat 50% 50%;
+	display: table;
+	background-size: cover;
+}
+
+.projecten h3{
+	color: white;
+}
+
+.projecten table{
+	margin: 0 auto;
+}
+
+.projecten .frmprojecten{
+	height: 80%;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.projecten .frmprojecten .updateprojecten{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: #eee;
+	cursor: pointer;
+	width: 100%;
+}
+
+.projecten .frmprojecten .updateRef:hover{
+	background-color: #ccc;
+}
+
+.projecten .frmprojecten input[type="text"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.projecten .frmprojecten .deleteProduct{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.projecten .frmprojecten .deleteRef:hover{
+	background-color: #e50000;
+}
+
+.projecten .frmprojectenExtra{
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.projecten .frmprojectenExtra input[type="text"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.projecten .frmprojectenExtra input[type="submit"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+.projecten .frmprojectenExtra input[type="submit"]:hover{
+	background-color: #45a049;
+}
+
+/**/
+
+.leerprocessen{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 10%;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('../img/w.jpg') no-repeat 50% 50%;
+	display: table;
+	background-size: cover;
+}
+
+.leerprocessen h3{
+	color: white;
+}
+
+.leerprocessen table{
+	margin: 0 auto;
+}
+
+.leerprocessen .frmArt{
+	height: 80%;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.leerprocessen .frmArt .updateArt{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: #eee;
+	cursor: pointer;
+	width: 100%;
+}
+
+.leerprocessen .frmArt .updateArt:hover{
+	background-color: #ccc;
+}
+
+.leerprocessen .frmArt input[type="text"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.leerprocessen .frmArt .deleteArt{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.leerprocessen .frmArt .deleteArt:hover{
+	background-color: #e50000;
+}
+
+.leerprocessen .frmArtExtra{
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.leerprocessen .frmArtExtra input[type="text"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+}
+
+.leerprocessen .frmArtExtra input[type="submit"]{
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 8px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+.leerprocessen .frmArtExtra input[type="submit"]:hover{
+	background-color: #45a049;
+}
+
+#panel, #flip, #panel2, #panel3, #flip2, #flip3 {
+		padding: 5px;
+		text-align: center;
+		background-color: #e5eecc;
+		border: solid 1px #c3c3c3;
+}
+
+#panel,#panel2,#panel3 {
+		padding: 50px;
+		display: none;
+}
