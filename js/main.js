@@ -13,7 +13,25 @@ $(window).scroll(function(event) {
 	}
 });
 
+function showMenu(){
+	if(document.getElementById('toggle').checked) {
+	    $("nav ul").slideDown(200);
+	} else {
+	    $("nav ul").slideUp(200);
+	}
+}
 
+var modal = document.getElementById('myModal');
+var lblCms = document.getElementById("lblCms");
+var span = document.getElementsByClassName("close")[0];
+
+lblCms.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
 
 function mailafriend(){
 	$("#btnMailafriend").html("Loading...");
